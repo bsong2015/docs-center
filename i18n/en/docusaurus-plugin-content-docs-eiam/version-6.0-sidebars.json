@@ -1,0 +1,21 @@
+{
+  "eiamSidebar": [
+    "intro",
+    {
+      "type": "category",
+      "label": "Installation and Deployment",
+      "items": [
+        "installation/overview",
+        "installation/requirements"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Development Docs",
+      "items": [
+        "development/api",
+        "development/sdk"
+      ]
+    }
+  ]
+}

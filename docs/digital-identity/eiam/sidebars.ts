@@ -1,0 +1,21 @@
+export default {
+  eiamSidebar: [
+    'intro',
+    {
+      type: 'category',
+      label: '安装部署手册',
+      items: [
+        'installation/overview',
+        'installation/requirements',
+      ],
+    },
+    {
+      type: 'category',
+      label: '开发文档',
+      items: [
+        'development/api',
+        'development/sdk',
+      ],
+    },
+  ],
+};

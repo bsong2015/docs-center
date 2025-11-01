@@ -1,0 +1,1 @@
+# Installation Requirements (EN) - Version 6.0

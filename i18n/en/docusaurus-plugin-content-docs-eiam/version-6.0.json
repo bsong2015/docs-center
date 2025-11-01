@@ -1,0 +1,14 @@
+{
+  "sidebar.eiamSidebar.category.安装部署手册": {
+    "message": "Installation Manual",
+    "description": "The label for category '安装部署手册' in sidebar 'eiamSidebar'"
+  },
+  "sidebar.eiamSidebar.category.开发文档": {
+    "message": "Development Docs",
+    "description": "The label for category '开发文档' in sidebar 'eiamSidebar'"
+  },
+  "version.label": {
+    "message": "6.0",
+    "description": "The label for version 6.0"
+  }
+}

@@ -1,7 +1,7 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import styles from '@site/src/components/HomepageFeatures/styles.module.css';
 
 type FeatureItem = {
   title: string;
@@ -11,29 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '多产品支持',
+    title: 'Multi-Product Support',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        本演示中心支持集成多个产品文档，如EIAM、CIAM和IDaaS，实现统一管理和展示。
+        This demo center supports integrating documentation for multiple products, such as EIAM, CIAM, and IDaaS, enabling unified management and display.
       </>
     ),
   },
   {
-    title: '多版本管理',
+    title: 'Multi-Version Management',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        针对不同产品版本，提供灵活的文档版本控制，确保用户获取到准确的版本信息。
+        For different product versions, flexible document version control is provided to ensure users get accurate version information.
       </>
     ),
   },
   {
-    title: '多语言支持',
+    title: 'Multi-Language Support',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        支持多种语言，方便全球用户访问和理解文档内容，目前已支持中文和英文。
+        Supports multiple languages, making it convenient for global users to access and understand document content. Currently, Chinese and English are supported.
       </>
     ),
   },

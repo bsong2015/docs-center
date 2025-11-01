@@ -5,7 +5,7 @@ import type {Config} from '@docusaurus/types';
 
 const config: Config = {
   title: '企业多产品文档中心',
-  tagline: '统一、集中化、易于维护和扩展的企业级产品文档中心',
+  tagline: '这是一个多产品、多版本、多语言的文档中心演示',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -140,7 +140,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/bsong2015/docs-center/',
           label: 'GitHub',
           position: 'right',
         },

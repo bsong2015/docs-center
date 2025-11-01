@@ -325,5 +325,9 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "homepage.title": {
+    "message": "Enterprise Multi-Product Documentation Center",
+    "description": "The title of the homepage"
   }
 }

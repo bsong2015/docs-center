@@ -148,7 +148,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: 'Copyright © 2025. Last updated: ' + new Date().toLocaleString(),
     },
     prism: {
       theme: prismThemes.github,

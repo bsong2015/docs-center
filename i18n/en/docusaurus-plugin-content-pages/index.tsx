@@ -5,6 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from './HomepageFeatures';
 import Heading from '@theme/Heading';
+import Translate from '@docusaurus/Translate';
 
 import styles from '@site/src/pages/index.module.css';
 
@@ -13,10 +14,6 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-import Translate from '@docusaurus/Translate';
-
-// ... other imports ...
-
         <Heading as="h1" className="hero__title">
           <Translate id="homepage.title" description="The title of the homepage">Enterprise Multi-Product Documentation Center</Translate>
         </Heading>

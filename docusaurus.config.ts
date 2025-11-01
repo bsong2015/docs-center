@@ -17,12 +17,12 @@ const config: Config = {
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/docs-center/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'git', // Usually your GitHub org/user name.
+  projectName: 'docs-center', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -51,7 +51,7 @@ const config: Config = {
         id: 'eiam',
         path: 'docs/digital-identity/eiam',
         routeBasePath: 'docs/eiam',
-        sidebarPath: './sidebars-eiam.ts',
+        sidebarPath: 'docs/digital-identity/eiam/sidebars.ts',
         lastVersion: 'current',
         versions: {
           current: {
@@ -69,7 +69,7 @@ const config: Config = {
         id: 'ciam',
         path: 'docs/digital-identity/ciam',
         routeBasePath: 'docs/ciam',
-        sidebarPath: './sidebars-ciam.ts',
+        sidebarPath: 'docs/digital-identity/ciam/sidebars.ts',
       },
     ],
     [
@@ -78,7 +78,7 @@ const config: Config = {
         id: 'idaas',
         path: 'docs/digital-identity/idaas',
         routeBasePath: 'docs/idaas',
-        sidebarPath: './sidebars-idaas.ts',
+        sidebarPath: 'docs/digital-identity/idaas/sidebars.ts',
       },
     ],
   ],
